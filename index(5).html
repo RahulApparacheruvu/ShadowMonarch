@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMEVERSE | Anime Collectibles</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+<header class="site-nav">
+    <a class="brand" href="#home">
+        <span class="brand-mark"><i class="fa-solid fa-bolt"></i></span>
+        <span>ANIMEVERSE</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#universes">Universes</a>
+        <a href="#store">Store</a>
+        <a href="#collections">Collections</a>
+    </nav>
+
+    <div class="nav-actions">
+        <button class="icon-button" type="button" aria-label="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button class="icon-button cart-trigger" type="button" aria-label="Open cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="cart-count">0</span>
+        </button>
+        <a class="icon-button" href="admin.php" aria-label="Admin">
+            <i class="fa-regular fa-user"></i>
+        </a>
+    </div>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-glow glow-purple"></div>
+        <div class="hero-glow glow-blue"></div>
+
+        <div class="hero-copy">
+            <div class="eyebrow">THE ANIME COLLECTOR'S STORE</div>
+            <h1>Your world.<br><span>Legendary.</span></h1>
+            <p>
+                Discover collectibles inspired by One Piece, Naruto,
+                Demon Slayer, Jujutsu Kaisen, Attack on Titan,
+                Dragon Ball and more.
+            </p>
+
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="#store">
+                    Explore Store <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a class="btn btn-secondary" href="#universes">
+                    Explore Universes
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+            <div class="orbit orbit-a"></div>
+            <div class="orbit orbit-b"></div>
+            <div class="hero-core">
+                <i class="fa-solid fa-dragon"></i>
+            </div>
+            <div class="hero-label">ANIMEVERSE</div>
+        </div>
+    </section>
+
+    <!-- UNIVERSES -->
+    <section class="section" id="universes">
+        <div class="section-heading">
+            <div class="eyebrow">EXPLORE THE WORLDS</div>
+            <h2>Pick your universe.</h2>
+            <p>Every world has a story. Every story has something worth collecting.</p>
+        </div>
+
+        <div class="universe-grid">
+
+            <article class="universe-card purple-card">
+                <div class="universe-icon"><i class="fa-solid fa-skull-crossbones"></i></div>
+                <div class="universe-copy">
+                    <small>ONE PIECE</small>
+                    <h3>Grand Line</h3>
+                    <p>Set sail beyond the horizon.</p>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square corner-icon"></i>
+            </article>
+
+            <article class="universe-card orange-card">
+                <div class="universe-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+                <div class="universe-copy">
+                    <small>NARUTO</small>
+                    <h3>Hidden Leaf</h3>
+                    <p>Believe in the way of the ninja.</p>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square corner-icon"></i>
+            </article>
+
+            <article class="universe-card red-card">
+                <div class="universe-icon"><i class="fa-solid fa-khanda"></i></div>
+                <div class="universe-copy">
+                    <small>DEMON SLAYER</small>
+                    <h3>Demon Corps</h3>
+                    <p>Breathe. Fight. Protect.</p>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square corner-icon"></i>
+            </article>
+
+            <article class="universe-card blue-card">
+                <div class="universe-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="universe-copy">
+                    <small>ATTACK ON TITAN</small>
+                    <h3>Humanity</h3>
+                    <p>Beyond the walls.</p>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square corner-icon"></i>
+            </article>
+
+            <article class="universe-card violet-card">
+                <div class="universe-icon"><i class="fa-solid fa-eye"></i></div>
+                <div class="universe-copy">
+                    <small>JUJUTSU KAISEN</small>
+                    <h3>Cursed Energy</h3>
+                    <p>Enter the world of sorcery.</p>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square corner-icon"></i>
+            </article>
+
+            <article class="universe-card gold-card">
+                <div class="universe-icon"><i class="fa-solid fa-dragon"></i></div>
+                <div class="universe-copy">
+                    <small>DRAGON BALL</small>
+                    <h3>Saiyan Legacy</h3>
+                    <p>Power has no limits.</p>
+                </div>
+                <i class="fa-solid fa-arrow-up-right-from-square corner-icon"></i>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- STORE -->
+    <section class="section store-section" id="store">
+        <div class="section-heading">
+            <div class="eyebrow">FEATURED COLLECTION</div>
+            <h2>Made for collectors.</h2>
+            <p>Icon-based collectibles inspired by legendary anime worlds.</p>
+        </div>
+
+        <div class="product-grid">
+
+            <article class="product-card"
+                     data-name="Straw Hat Collection"
+                     data-category="ONE PIECE"
+                     data-price="1499"
+                     data-icon="fa-skull-crossbones"
+                     data-theme="purple">
+                <div class="product-visual theme-purple">
+                    <div class="visual-orb"></div>
+                    <i class="fa-solid fa-skull-crossbones product-icon"></i>
+                    <span>OP</span>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">ONE PIECE</div>
+                    <h3>Straw Hat Collection</h3>
+                    <p>A collectible inspired by the journey of the Straw Hats.</p>
+                    <div class="product-bottom">
+                        <div>
+                            <small>PRICE</small>
+                            <strong>₹1,499</strong>
+                        </div>
+                        <button class="add-cart" type="button">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card"
+                     data-name="Shinobi Legacy"
+                     data-category="NARUTO"
+                     data-price="1299"
+                     data-icon="fa-fire-flame-curved"
+                     data-theme="orange">
+                <div class="product-visual theme-orange">
+                    <div class="visual-orb"></div>
+                    <i class="fa-solid fa-fire-flame-curved product-icon"></i>
+                    <span>N</span>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">NARUTO</div>
+                    <h3>Shinobi Legacy</h3>
+                    <p>Inspired by the Hidden Leaf and the ninja who never gives up.</p>
+                    <div class="product-bottom">
+                        <div>
+                            <small>PRICE</small>
+                            <strong>₹1,299</strong>
+                        </div>
+                        <button class="add-cart" type="button">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card"
+                     data-name="Scout Regiment"
+                     data-category="ATTACK ON TITAN"
+                     data-price="1799"
+                     data-icon="fa-shield-halved"
+                     data-theme="blue">
+                <div class="product-visual theme-blue">
+                    <div class="visual-orb"></div>
+                    <i class="fa-solid fa-shield-halved product-icon"></i>
+                    <span>AOT</span>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">ATTACK ON TITAN</div>
+                    <h3>Scout Regiment</h3>
+                    <p>A tribute to those who ventured beyond the walls.</p>
+                    <div class="product-bottom">
+                        <div>
+                            <small>PRICE</small>
+                            <strong>₹1,799</strong>
+                        </div>
+                        <button class="add-cart" type="button">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card"
+                     data-name="Nichirin Collection"
+                     data-category="DEMON SLAYER"
+                     data-price="1599"
+                     data-icon="fa-khanda"
+                     data-theme="red">
+                <div class="product-visual theme-red">
+                    <div class="visual-orb"></div>
+                    <i class="fa-solid fa-khanda product-icon"></i>
+                    <span>DS</span>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">DEMON SLAYER</div>
+                    <h3>Nichirin Collection</h3>
+                    <p>Inspired by the Demon Slayer Corps and their breathing styles.</p>
+                    <div class="product-bottom">
+                        <div>
+                            <small>PRICE</small>
+                            <strong>₹1,599</strong>
+                        </div>
+                        <button class="add-cart" type="button">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card"
+                     data-name="Cursed Energy"
+                     data-category="JUJUTSU KAISEN"
+                     data-price="1699"
+                     data-icon="fa-eye"
+                     data-theme="violet">
+                <div class="product-visual theme-violet">
+                    <div class="visual-orb"></div>
+                    <i class="fa-solid fa-eye product-icon"></i>
+                    <span>JJK</span>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">JUJUTSU KAISEN</div>
+                    <h3>Cursed Energy</h3>
+                    <p>Enter the world of cursed techniques and sorcery.</p>
+                    <div class="product-bottom">
+                        <div>
+                            <small>PRICE</small>
+                            <strong>₹1,699</strong>
+                        </div>
+                        <button class="add-cart" type="button">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card"
+                     data-name="Saiyan Power"
+                     data-category="DRAGON BALL"
+                     data-price="1999"
+                     data-icon="fa-dragon"
+                     data-theme="gold">
+                <div class="product-visual theme-gold">
+                    <div class="visual-orb"></div>
+                    <i class="fa-solid fa-dragon product-icon"></i>
+                    <span>DB</span>
+                </div>
+                <div class="product-info">
+                    <div class="product-category">DRAGON BALL</div>
+                    <h3>Saiyan Power</h3>
+                    <p>A collection inspired by legendary Saiyan warriors.</p>
+                    <div class="product-bottom">
+                        <div>
+                            <small>PRICE</small>
+                            <strong>₹1,999</strong>
+                        </div>
+                        <button class="add-cart" type="button">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- FEATURE -->
+    <section class="feature-banner" id="collections">
+        <div class="feature-copy">
+            <div class="eyebrow">THE COLLECTOR'S CODE</div>
+            <h2>Collect the worlds that shaped you.</h2>
+            <p>From the first episode to the final battle, some stories stay with you forever.</p>
+            <a class="btn btn-primary" href="#store">
+                Shop Collection <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+        <div class="feature-object" aria-hidden="true">
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer-brand">
+        <i class="fa-solid fa-bolt"></i> ANIMEVERSE
+    </div>
+    <p>Built for the generation that grew up inside anime worlds.</p>
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#universes">Universes</a>
+        <a href="#store">Store</a>
+        <a href="admin.php">Admin</a>
+    </div>
+    <small>© 2026 Animeverse. All rights reserved.</small>
+</footer>
+
+<!-- CART DRAWER -->
+<div class="cart-drawer" aria-hidden="true">
+    <div class="cart-backdrop"></div>
+
+    <aside class="cart-panel">
+        <div class="cart-header">
+            <div>
+                <span>YOUR COLLECTION</span>
+                <h2>Shopping Bag</h2>
+            </div>
+            <button class="cart-close" type="button" aria-label="Close cart">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <div class="cart-items"></div>
+
+        <div class="cart-footer">
+            <div class="cart-total-row">
+                <span>Total</span>
+                <strong class="cart-total">₹0</strong>
+            </div>
+            <button class="checkout-button" type="button">
+                Proceed to Checkout
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+    </aside>
+</div>
+
+<script>
+(function () {
+    "use strict";
+
+    const STORAGE_KEY = "animeverse_cart";
+
+    let cart = [];
+    try {
+        cart = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+    } catch (e) {
+        cart = [];
+    }
+
+    const cartDrawer = document.querySelector(".cart-drawer");
+    const cartPanel = document.querySelector(".cart-panel");
+    const cartItems = document.querySelector(".cart-items");
+    const cartTotal = document.querySelector(".cart-total");
+    const cartCount = document.querySelector(".cart-count");
+    const cartTrigger = document.querySelector(".cart-trigger");
+    const cartClose = document.querySelector(".cart-close");
+    const cartBackdrop = document.querySelector(".cart-backdrop");
+
+    function saveCart() {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(cart));
+    }
+
+    function formatINR(value) {
+        return "₹" + Number(value).toLocaleString("en-IN");
+    }
+
+    function updateCount() {
+        const count = cart.reduce((sum, item) => sum + item.quantity, 0);
+        cartCount.textContent = count;
+    }
+
+    function updateProductButtons() {
+        document.querySelectorAll(".product-card").forEach(card => {
+            const name = card.dataset.name;
+            const button = card.querySelector(".add-cart");
+            const icon = button.querySelector("i");
+            const exists = cart.some(item => item.name === name);
+
+            button.classList.toggle("added", exists);
+            icon.classList.toggle("fa-plus", !exists);
+            icon.classList.toggle("fa-check", exists);
+        });
+    }
+
+    function renderCart() {
+        if (!cart.length) {
+            cartItems.innerHTML = `
+                <div class="empty-cart">
+                    <div class="empty-cart-icon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+                    <h3>Your collection is empty</h3>
+                    <p>Add something from the store and it will appear here.</p>
+                </div>
+            `;
+            cartTotal.textContent = "₹0";
+            return;
+        }
+
+        let total = 0;
+
+        cartItems.innerHTML = cart.map((item, index) => {
+            const itemTotal = item.price * item.quantity;
+            total += itemTotal;
+
+            return `
+                <div class="cart-item">
+                    <div class="cart-item-icon ${item.theme || "purple"}">
+                        <i class="fa-solid ${item.icon || "fa-star"}"></i>
+                    </div>
+
+                    <div class="cart-item-info">
+                        <small>${item.category}</small>
+                        <h3>${item.name}</h3>
+                        <strong>${formatINR(item.price)}</strong>
+
+                        <div class="quantity-controls">
+                            <button type="button" data-action="minus" data-index="${index}">
+                                <i class="fa-solid fa-minus"></i>
+                            </button>
+                            <b>${item.quantity}</b>
+                            <button type="button" data-action="plus" data-index="${index}">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <button class="remove-item" type="button"
+                            data-action="remove" data-index="${index}"
+                            aria-label="Remove ${item.name}">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                </div>
+            `;
+        }).join("");
+
+        cartTotal.textContent = formatINR(total);
+    }
+
+    function openCart() {
+        renderCart();
+        cartDrawer.classList.add("open");
+        cartDrawer.setAttribute("aria-hidden", "false");
+        document.body.classList.add("cart-open");
+    }
+
+    function closeCartDrawer() {
+        cartDrawer.classList.remove("open");
+        cartDrawer.setAttribute("aria-hidden", "true");
+        document.body.classList.remove("cart-open");
+    }
+
+    document.querySelectorAll(".add-cart").forEach(button => {
+        button.addEventListener("click", function () {
+            const card = button.closest(".product-card");
+
+            const name = card.dataset.name;
+            const category = card.dataset.category;
+            const price = Number(card.dataset.price);
+            const icon = card.dataset.icon;
+            const theme = card.dataset.theme;
+
+            const existing = cart.find(item => item.name === name);
+
+            if (existing) {
+                existing.quantity += 1;
+            } else {
+                cart.push({
+                    name,
+                    category,
+                    price,
+                    icon,
+                    theme,
+                    quantity: 1
+                });
+            }
+
+            saveCart();
+            updateCount();
+            updateProductButtons();
+            renderCart();
+            openCart();
+        });
+    });
+
+    cartItems.addEventListener("click", function (event) {
+        const button = event.target.closest("button[data-action]");
+        if (!button) return;
+
+        const index = Number(button.dataset.index);
+        const action = button.dataset.action;
+
+        if (action === "plus") {
+            cart[index].quantity += 1;
+        }
+
+        if (action === "minus") {
+            cart[index].quantity -= 1;
+            if (cart[index].quantity <= 0) {
+                cart.splice(index, 1);
+            }
+        }
+
+        if (action === "remove") {
+            cart.splice(index, 1);
+        }
+
+        saveCart();
+        updateCount();
+        updateProductButtons();
+        renderCart();
+    });
+
+    cartTrigger.addEventListener("click", openCart);
+    cartClose.addEventListener("click", closeCartDrawer);
+    cartBackdrop.addEventListener("click", closeCartDrawer);
+
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+            closeCartDrawer();
+        }
+    });
+
+    updateCount();
+    updateProductButtons();
+    renderCart();
+})();
+</script>
+
+</body>
+</html>
